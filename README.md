@@ -45,7 +45,7 @@ pip install -r requirements.txt
 ```
 
 ### **3️. Configure PostgreSQL**
-- Ensure PostgreSQL is installed.
+- Ensure [PostgreSQL](https://www.postgresql.org) is installed.
 - Update database credentials in `etl_pipeline.py`:
   ```python
   DB_URI = "postgresql+psycopg2://username:password@localhost/weather_db"
